@@ -1,0 +1,5 @@
+<launch>
+	<node pkg="turtlesim" type="turtlesim_node" name="turtle" />
+	<node pkg="turtlesim" type="draw_square" name="turtlesim_draw_square"/>
+	<node pkg="gw_ros_test" type="problem_5.py" name="sub_turtle_pos" output="screen"/>
+</launch>
